@@ -2,7 +2,7 @@
   "name": "rsbuild-arco-pro",
   "version": "0.1.0",
   "scripts": {
-    "dev": "rsbuild dev",
+    "dev": "rsbuild",
     "build": "rsbuild build",
     "preview": "rsbuild preview"
   },
