@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "rsbuild",
     "build": "rsbuild build",
-    "preview": "rsbuild preview",
-    "test": "pnpm build"
+    "preview": "rsbuild preview"
   },
   "packageManager": "pnpm@10.5.0",
   "dependencies": {
