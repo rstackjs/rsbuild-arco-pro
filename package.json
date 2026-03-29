@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "rsbuild",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "test": "pnpm build"
   },
   "packageManager": "pnpm@10.5.0",
   "dependencies": {
@@ -43,6 +44,6 @@
     "@types/react-redux": "^7.1.33",
     "@types/react-router-dom": "^5.3.3",
     "execa": "^5",
-    "typescript": "^5"
+    "typescript": "^6.0.2"
   }
 }
