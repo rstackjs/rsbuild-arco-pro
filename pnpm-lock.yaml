@@ -46,7 +46,7 @@ importers:
         version: 1.11.13
       lodash:
         specifier: ^4.17.21
-        version: 4.17.21
+        version: 4.18.1
       mockjs:
         specifier: ^1.1.0
         version: 1.1.0
@@ -1638,8 +1638,8 @@ packages:
   lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
 
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   longest@1.0.1:
     resolution: {integrity: sha512-k+yt5n3l48JU4k8ftnKG6V7u32wyH2NfKzeMto9F/QRE0amxy/LayxwlvjjkZEIzqR+19IrtFO8p5kB9QaYUFg==}
@@ -2438,7 +2438,7 @@ snapshots:
       b-validate: 1.5.3
       compute-scroll-into-view: 1.0.20
       dayjs: 1.11.13
-      lodash: 4.17.21
+      lodash: 4.18.1
       number-precision: 1.6.0
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -4030,7 +4030,7 @@ snapshots:
   dagre@0.8.5:
     dependencies:
       graphlib: 2.1.8
-      lodash: 4.17.21
+      lodash: 4.18.1
 
   data-view-buffer@1.0.2:
     dependencies:
@@ -4351,7 +4351,7 @@ snapshots:
 
   graphlib@2.1.8:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
 
   has-ansi@2.0.0:
     dependencies:
@@ -4579,7 +4579,7 @@ snapshots:
 
   lodash.debounce@4.0.8: {}
 
-  lodash@4.17.21: {}
+  lodash@4.18.1: {}
 
   longest@1.0.1: {}
 
@@ -4768,7 +4768,7 @@ snapshots:
   react-color@2.19.3(react@17.0.2):
     dependencies:
       '@icons/material': 0.2.4(react@17.0.2)
-      lodash: 4.17.21
+      lodash: 4.18.1
       lodash-es: 4.17.21
       material-colors: 1.2.6
       prop-types: 15.8.1
@@ -4868,7 +4868,7 @@ snapshots:
 
   reactcss@1.2.3(react@17.0.2):
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.18.1
       react: 17.0.2
 
   reduce-configs@1.1.0: {}
