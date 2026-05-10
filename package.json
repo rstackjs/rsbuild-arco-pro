@@ -6,11 +6,11 @@
     "build": "rsbuild build",
     "preview": "rsbuild preview"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@10.33.4",
   "dependencies": {
     "@antv/data-set": "^0.11.8",
     "@arco-design/color": "^0.4.0",
-    "@arco-design/web-react": "^2.66.14",
+    "@arco-design/web-react": "^2.66.15",
     "@arco-themes/react-arco-pro": "^0.0.7",
     "@loadable/component": "^5.16.7",
     "@turf/turf": "^6.5.0",
@@ -33,11 +33,11 @@
     "redux": "^4.2.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.3",
+    "@rsbuild/core": "2.0.5",
     "@rsbuild/plugin-less": "1.6.3",
     "@rsbuild/plugin-react": "2.0.0",
     "@rsbuild/plugin-svgr": "2.0.2",
-    "@types/node": "^24.12.2",
+    "@types/node": "^24.12.3",
     "@types/react": "^18.3.28",
     "@types/react-dom": "^18.3.7",
     "@types/react-redux": "^7.1.34",
