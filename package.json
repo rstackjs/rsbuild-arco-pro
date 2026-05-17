@@ -6,7 +6,7 @@
     "build": "rsbuild build",
     "preview": "rsbuild preview"
   },
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@11.1.2",
   "dependencies": {
     "@antv/data-set": "^0.11.8",
     "@arco-design/color": "^0.4.0",
