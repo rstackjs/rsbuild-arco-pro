@@ -15,7 +15,7 @@
     "@loadable/component": "^5.16.7",
     "@turf/turf": "^6.5.0",
     "arco-design-pro": "^2.8.1",
-    "axios": "^1.16.0",
+    "axios": "^1.16.1",
     "bizcharts": "^4.1.23",
     "classnames": "^2.5.1",
     "copy-to-clipboard": "^3.3.3",
@@ -33,11 +33,11 @@
     "redux": "^4.2.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.0.5",
+    "@rsbuild/core": "2.0.6",
     "@rsbuild/plugin-less": "1.6.3",
     "@rsbuild/plugin-react": "2.0.0",
     "@rsbuild/plugin-svgr": "2.0.2",
-    "@types/node": "^24.12.3",
+    "@types/node": "^24.12.4",
     "@types/react": "^18.3.28",
     "@types/react-dom": "^18.3.7",
     "@types/react-redux": "^7.1.34",
