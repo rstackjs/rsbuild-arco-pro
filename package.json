@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "2.1.2",
-    "@rsbuild/plugin-less": "1.6.4",
+    "@rsbuild/plugin-less": "2.0.1",
     "@rsbuild/plugin-react": "2.1.0",
     "@rsbuild/plugin-svgr": "2.0.4",
     "@types/node": "^24.13.2",
