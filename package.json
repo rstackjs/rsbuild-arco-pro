@@ -6,7 +6,7 @@
     "build": "rsbuild build",
     "preview": "rsbuild preview"
   },
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.13.0",
   "dependencies": {
     "@antv/data-set": "^0.11.8",
     "@arco-design/color": "^0.4.0",
@@ -33,11 +33,11 @@
     "redux": "^4.2.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.1.2",
+    "@rsbuild/core": "2.1.5",
     "@rsbuild/plugin-less": "2.0.1",
     "@rsbuild/plugin-react": "2.1.0",
-    "@rsbuild/plugin-svgr": "2.0.4",
-    "@types/node": "^24.13.2",
+    "@rsbuild/plugin-svgr": "2.0.5",
+    "@types/node": "^24.13.3",
     "@types/react": "^18.3.31",
     "@types/react-dom": "^18.3.7",
     "@types/react-redux": "^7.1.34",
