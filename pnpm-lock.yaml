@@ -67,7 +67,7 @@ importers:
         version: 17.0.2(react@17.0.2)
       react-redux:
         specifier: ^9.3.0
-        version: 9.3.0(@types/react@18.3.31)(react@17.0.2)(redux@4.2.1)
+        version: 9.3.0(@types/react@18.3.31)(react@17.0.2)(redux@5.0.1)
       react-router:
         specifier: ^5.3.4
         version: 5.3.4(react@17.0.2)
@@ -75,8 +75,8 @@ importers:
         specifier: ^5.3.4
         version: 5.3.4(react@17.0.2)
       redux:
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^5.0.1
+        version: 5.0.1
     devDependencies:
       '@rsbuild/core':
         specifier: 2.1.9
@@ -2183,6 +2183,9 @@ packages:
 
   redux@4.2.1:
     resolution: {integrity: sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==}
+
+  redux@5.0.1:
+    resolution: {integrity: sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==}
 
   reflect.getprototypeof@1.0.10:
     resolution: {integrity: sha512-00o4I+DVrefhv+nX0ulyi3biSHCPDe+yLv5o/p6d/UVlirijB8E16FtfwSAi4g3tcqrQ4lRAqQSoFEZJehYEcw==}
@@ -5580,14 +5583,14 @@ snapshots:
       react: 17.0.2
       scheduler: 0.19.1
 
-  react-redux@9.3.0(@types/react@18.3.31)(react@17.0.2)(redux@4.2.1):
+  react-redux@9.3.0(@types/react@18.3.31)(react@17.0.2)(redux@5.0.1):
     dependencies:
       '@types/use-sync-external-store': 0.0.6
       react: 17.0.2
       use-sync-external-store: 1.6.0(react@17.0.2)
     optionalDependencies:
       '@types/react': 18.3.31
-      redux: 4.2.1
+      redux: 5.0.1
 
   react-refresh@0.18.0: {}
 
@@ -5639,6 +5642,8 @@ snapshots:
   redux@4.2.1:
     dependencies:
       '@babel/runtime': 7.26.9
+
+  redux@5.0.1: {}
 
   reflect.getprototypeof@1.0.10:
     dependencies:
