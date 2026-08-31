@@ -6,24 +6,24 @@
     "build": "rsbuild build",
     "preview": "rsbuild preview"
   },
-  "packageManager": "pnpm@11.18.0",
+  "packageManager": "pnpm@11.24.0",
   "dependencies": {
     "@antv/data-set": "^0.11.8",
     "@arco-design/color": "^0.4.0",
     "@arco-design/web-react": "^2.66.16",
     "@arco-themes/react-arco-pro": "^0.0.7",
     "@loadable/component": "^5.16.7",
-    "@turf/turf": "^7.3.5",
+    "@turf/turf": "^7.4.0",
     "arco-design-pro": "^2.8.1",
-    "axios": "^1.19.0",
+    "axios": "^1.20.0",
     "bizcharts": "^4.1.23",
     "classnames": "^2.5.1",
     "copy-to-clipboard": "^4.0.2",
-    "dayjs": "^1.11.21",
+    "dayjs": "^1.11.23",
     "lodash": "^4.18.1",
     "mockjs": "^1.1.0",
     "nprogress": "^0.2.0",
-    "query-string": "^9.4.1",
+    "query-string": "^9.5.0",
     "react": "^17.0.2",
     "react-color": "^2.19.3",
     "react-dom": "^17.0.2",
@@ -33,7 +33,7 @@
     "redux": "^4.2.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.1.9",
+    "@rsbuild/core": "2.2.1",
     "@rsbuild/plugin-less": "2.0.1",
     "@rsbuild/plugin-react": "2.1.0",
     "@rsbuild/plugin-svgr": "2.0.5",
@@ -42,7 +42,7 @@
     "@types/react-dom": "^18.3.7",
     "@types/react-redux": "^7.1.34",
     "@types/react-router-dom": "^5.3.3",
-    "execa": "^10.0.0",
+    "execa": "^10.0.1",
     "typescript": "^7.0.2"
   }
 }
