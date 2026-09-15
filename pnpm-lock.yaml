@@ -174,13 +174,13 @@ importers:
         version: 0.4.0
       '@arco-design/web-react':
         specifier: ^2.66.16
-        version: 2.66.16(@types/react@18.3.31)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+        version: 2.66.16(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@arco-themes/react-arco-pro':
         specifier: ^0.0.7
-        version: 0.0.7(@arco-design/web-react@2.66.16(@types/react@18.3.31)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))
+        version: 0.0.7(@arco-design/web-react@2.66.16(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
       '@loadable/component':
         specifier: ^5.16.7
-        version: 5.16.7(react@17.0.2)
+        version: 5.16.7(react@19.3.0)
       '@turf/turf':
         specifier: ^7.4.0
         version: 7.4.0
@@ -192,7 +192,7 @@ importers:
         version: 1.20.0(debug@4.4.0(supports-color@2.0.0))(supports-color@2.0.0)
       bizcharts:
         specifier: ^4.1.23
-        version: 4.1.23(@babel/core@7.26.9(supports-color@2.0.0))(react@17.0.2)(supports-color@2.0.0)
+        version: 4.1.23(@babel/core@7.26.9(supports-color@2.0.0))(react@19.3.0)(supports-color@2.0.0)
       classnames:
         specifier: ^2.5.1
         version: 2.5.1
@@ -215,23 +215,23 @@ importers:
         specifier: ^9.5.1
         version: 9.5.1
       react:
-        specifier: ^17.0.2
-        version: 17.0.2
+        specifier: ^19.3.0
+        version: 19.3.0
       react-color:
         specifier: ^2.19.3
-        version: 2.19.3(react@17.0.2)
+        version: 2.19.3(react@19.3.0)
       react-dom:
-        specifier: ^17.0.2
-        version: 17.0.2(react@17.0.2)
+        specifier: ^19.3.0
+        version: 19.3.0(react@19.3.0)
       react-redux:
         specifier: ^9.3.0
-        version: 9.3.0(@types/react@18.3.31)(react@17.0.2)(redux@4.2.1)
+        version: 9.3.0(@types/react@19.3.0)(react@19.3.0)(redux@4.2.1)
       react-router:
         specifier: ^5.3.4
-        version: 5.3.4(react@17.0.2)
+        version: 5.3.4(react@19.3.0)
       react-router-dom:
         specifier: ^5.3.4
-        version: 5.3.4(react@17.0.2)
+        version: 5.3.4(react@19.3.0)
       redux:
         specifier: ^4.2.1
         version: 4.2.1
@@ -252,11 +252,11 @@ importers:
         specifier: ^24.13.4
         version: 24.13.4
       '@types/react':
-        specifier: ^18.3.31
-        version: 18.3.31
+        specifier: ^19.3.0
+        version: 19.3.0
       '@types/react-dom':
-        specifier: ^18.3.7
-        version: 18.3.7(@types/react@18.3.31)
+        specifier: ^19.3.0
+        version: 19.3.0(@types/react@19.3.0)
       '@types/react-redux':
         specifier: ^7.1.34
         version: 7.1.34
@@ -1091,13 +1091,10 @@ packages:
   '@types/node@24.13.4':
     resolution: {integrity: sha512-YJ7EqCstVTzIr0fMr7qul/977en+pQHrfmuKIo6Zr9i75Be21dr3MovcfvGtyvi2HAUrRerWps5sMO9I7WaxDw==}
 
-  '@types/prop-types@15.7.14':
-    resolution: {integrity: sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ==}
-
-  '@types/react-dom@18.3.7':
-    resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
+  '@types/react-dom@19.3.0':
+    resolution: {integrity: sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==}
     peerDependencies:
-      '@types/react': ^18.0.0
+      '@types/react': ^19.3.0
 
   '@types/react-redux@7.1.34':
     resolution: {integrity: sha512-GdFaVjEbYv4Fthm2ZLvj1VSCedV7TqE5y1kNwnjSdBOTXuRSgowux6J8TAct15T3CKBr63UMk+2CO7ilRhyrAQ==}
@@ -1108,11 +1105,8 @@ packages:
   '@types/react-router@5.1.20':
     resolution: {integrity: sha512-jGjmu/ZqS7FjSH6owMcD5qpq19+1RS9DeVRqfl1FeBMxTDQAGwlMWOcs52NDoXaNKyG3d1cYQFMs9rCrb88o9Q==}
 
-  '@types/react@18.3.29':
-    resolution: {integrity: sha512-ch0qJdr2JY0r04NXSprbK6TXOgnaJ1Tz23fm5W+z0/CBah6BSBc3n96h7K9GOtwh0HrilNWHIBzE1Ko4Dcw/Wg==}
-
-  '@types/react@18.3.31':
-    resolution: {integrity: sha512-vfEqpXTvwT91yhmwdfouStN2hSKwTvyRs8qpLfADyrq/kxDw0hZM7Wk9Ug1FELj8hIby+S/+kQCSRFF32nv2Qw==}
+  '@types/react@19.3.0':
+    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
 
   '@types/use-sync-external-store@0.0.6':
     resolution: {integrity: sha512-zFDAD+tlpf2r4asuHEj0XH6pY6i0g5NeAHPn+15wk3BV6JA69eERFXC1gyGThDkVa1zCyKr5jox1+2LbV/AMLg==}
@@ -2271,10 +2265,10 @@ packages:
     peerDependencies:
       react: '*'
 
-  react-dom@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  react-dom@19.3.0:
+    resolution: {integrity: sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==}
     peerDependencies:
-      react: 17.0.2
+      react: ^19.3.0
 
   react-error-boundary@3.0.2:
     resolution: {integrity: sha512-KVzCusRTFpUYG0OFJbzbdRuxNQOBiGXVCqyNpBXM9z5NFsFLzMjUXMjx8gTja6M6WH+D2PvP3yKz4d8gD1PRaA==}
@@ -2335,8 +2329,8 @@ packages:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
 
-  react@17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  react@19.3.0:
+    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
     engines: {node: '>=0.10.0'}
 
   reactcss@1.2.3:
@@ -2422,8 +2416,8 @@ packages:
   scheduler@0.19.1:
     resolution: {integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==}
 
-  scheduler@0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  scheduler@0.28.0:
+    resolution: {integrity: sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==}
 
   scroll-into-view-if-needed@2.2.31:
     resolution: {integrity: sha512-dGCXy99wZQivjmjIqihaBQNjryrz5rueJY7eHfTdyWEiR4ttYpsajb14rn9s5d4DY4EcY6+4+U/maARBXJedkA==}
@@ -2868,7 +2862,7 @@ snapshots:
     dependencies:
       color: 3.2.1
 
-  '@arco-design/web-react@2.66.16(@types/react@18.3.31)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)':
+  '@arco-design/web-react@2.66.16(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@arco-design/color': 0.4.0
       '@babel/runtime': 7.26.9
@@ -2878,20 +2872,20 @@ snapshots:
       dayjs: 1.11.23
       lodash: 4.18.1
       number-precision: 1.6.0
-      react: 17.0.2
-      react-dom: 17.0.2(react@17.0.2)
-      react-focus-lock: 2.13.6(@types/react@18.3.31)(react@17.0.2)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
+      react-focus-lock: 2.13.6(@types/react@19.3.0)(react@19.3.0)
       react-is: 18.3.1
-      react-transition-group: 4.4.5(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      react-transition-group: 4.4.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       resize-observer-polyfill: 1.5.1
       scroll-into-view-if-needed: 2.2.31
       shallowequal: 1.1.0
     transitivePeerDependencies:
       - '@types/react'
 
-  '@arco-themes/react-arco-pro@0.0.7(@arco-design/web-react@2.66.16(@types/react@18.3.31)(react-dom@17.0.2(react@17.0.2))(react@17.0.2))':
+  '@arco-themes/react-arco-pro@0.0.7(@arco-design/web-react@2.66.16(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))':
     dependencies:
-      '@arco-design/web-react': 2.66.16(@types/react@18.3.31)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      '@arco-design/web-react': 2.66.16(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -3044,9 +3038,9 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@icons/material@0.2.4(react@17.0.2)':
+  '@icons/material@0.2.4(react@19.3.0)':
     dependencies:
-      react: 17.0.2
+      react: 19.3.0
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
@@ -3075,11 +3069,11 @@ snapshots:
     dependencies:
       call-bind: 1.0.8
 
-  '@loadable/component@5.16.7(react@17.0.2)':
+  '@loadable/component@5.16.7(react@19.3.0)':
     dependencies:
       '@babel/runtime': 7.26.9
       hoist-non-react-statics: 3.3.2
-      react: 17.0.2
+      react: 19.3.0
       react-is: 16.13.1
 
   '@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.11.3)(@emnapi/runtime@1.11.3)':
@@ -4446,7 +4440,7 @@ snapshots:
 
   '@types/hoist-non-react-statics@3.3.6':
     dependencies:
-      '@types/react': 18.3.29
+      '@types/react': 19.3.0
       hoist-non-react-statics: 3.3.2
 
   '@types/kdbush@3.0.5': {}
@@ -4455,38 +4449,30 @@ snapshots:
     dependencies:
       undici-types: 7.18.2
 
-  '@types/prop-types@15.7.14': {}
-
-  '@types/react-dom@18.3.7(@types/react@18.3.31)':
+  '@types/react-dom@19.3.0(@types/react@19.3.0)':
     dependencies:
-      '@types/react': 18.3.31
+      '@types/react': 19.3.0
 
   '@types/react-redux@7.1.34':
     dependencies:
       '@types/hoist-non-react-statics': 3.3.6
-      '@types/react': 18.3.29
+      '@types/react': 19.3.0
       hoist-non-react-statics: 3.3.2
       redux: 4.2.1
 
   '@types/react-router-dom@5.3.3':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.3.29
+      '@types/react': 19.3.0
       '@types/react-router': 5.1.20
 
   '@types/react-router@5.1.20':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.3.29
+      '@types/react': 19.3.0
 
-  '@types/react@18.3.29':
+  '@types/react@19.3.0':
     dependencies:
-      '@types/prop-types': 15.7.14
-      csstype: 3.2.3
-
-  '@types/react@18.3.31':
-    dependencies:
-      '@types/prop-types': 15.7.14
       csstype: 3.2.3
 
   '@types/use-sync-external-store@0.0.6': {}
@@ -4652,7 +4638,7 @@ snapshots:
 
   bignumber.js@9.3.1: {}
 
-  bizcharts@4.1.23(@babel/core@7.26.9(supports-color@2.0.0))(react@17.0.2)(supports-color@2.0.0):
+  bizcharts@4.1.23(@babel/core@7.26.9(supports-color@2.0.0))(react@19.3.0)(supports-color@2.0.0):
     dependencies:
       '@antv/component': 0.8.35
       '@antv/g2': 4.1.32
@@ -4663,8 +4649,8 @@ snapshots:
       '@juggle/resize-observer': 3.4.0
       babel-plugin-transform-replace-object-assign: 2.0.0(@babel/core@7.26.9(supports-color@2.0.0))(supports-color@2.0.0)
       d3-color: 3.1.0
-      react-error-boundary: 3.0.2(react@17.0.2)
-      react-reconciler: 0.25.1(react@17.0.2)
+      react-error-boundary: 3.0.2(react@19.3.0)
+      react-reconciler: 0.25.1(react@19.3.0)
       warning: 4.0.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -5689,81 +5675,79 @@ snapshots:
     dependencies:
       quickselect: 2.0.0
 
-  react-clientside-effect@1.2.7(react@17.0.2):
+  react-clientside-effect@1.2.7(react@19.3.0):
     dependencies:
       '@babel/runtime': 7.26.9
-      react: 17.0.2
+      react: 19.3.0
 
-  react-color@2.19.3(react@17.0.2):
+  react-color@2.19.3(react@19.3.0):
     dependencies:
-      '@icons/material': 0.2.4(react@17.0.2)
+      '@icons/material': 0.2.4(react@19.3.0)
       lodash: 4.18.1
       lodash-es: 4.17.21
       material-colors: 1.2.6
       prop-types: 15.8.1
-      react: 17.0.2
-      reactcss: 1.2.3(react@17.0.2)
+      react: 19.3.0
+      reactcss: 1.2.3(react@19.3.0)
       tinycolor2: 1.6.0
 
-  react-dom@17.0.2(react@17.0.2):
+  react-dom@19.3.0(react@19.3.0):
     dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
+      react: 19.3.0
+      scheduler: 0.28.0
 
-  react-error-boundary@3.0.2(react@17.0.2):
+  react-error-boundary@3.0.2(react@19.3.0):
     dependencies:
       '@babel/runtime': 7.26.9
-      react: 17.0.2
+      react: 19.3.0
 
-  react-focus-lock@2.13.6(@types/react@18.3.31)(react@17.0.2):
+  react-focus-lock@2.13.6(@types/react@19.3.0)(react@19.3.0):
     dependencies:
       '@babel/runtime': 7.26.9
       focus-lock: 1.3.6
       prop-types: 15.8.1
-      react: 17.0.2
-      react-clientside-effect: 1.2.7(react@17.0.2)
-      use-callback-ref: 1.3.3(@types/react@18.3.31)(react@17.0.2)
-      use-sidecar: 1.1.3(@types/react@18.3.31)(react@17.0.2)
+      react: 19.3.0
+      react-clientside-effect: 1.2.7(react@19.3.0)
+      use-callback-ref: 1.3.3(@types/react@19.3.0)(react@19.3.0)
+      use-sidecar: 1.1.3(@types/react@19.3.0)(react@19.3.0)
     optionalDependencies:
-      '@types/react': 18.3.31
+      '@types/react': 19.3.0
 
   react-is@16.13.1: {}
 
   react-is@18.3.1: {}
 
-  react-reconciler@0.25.1(react@17.0.2):
+  react-reconciler@0.25.1(react@19.3.0):
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       prop-types: 15.8.1
-      react: 17.0.2
+      react: 19.3.0
       scheduler: 0.19.1
 
-  react-redux@9.3.0(@types/react@18.3.31)(react@17.0.2)(redux@4.2.1):
+  react-redux@9.3.0(@types/react@19.3.0)(react@19.3.0)(redux@4.2.1):
     dependencies:
       '@types/use-sync-external-store': 0.0.6
-      react: 17.0.2
-      use-sync-external-store: 1.6.0(react@17.0.2)
+      react: 19.3.0
+      use-sync-external-store: 1.6.0(react@19.3.0)
     optionalDependencies:
-      '@types/react': 18.3.31
+      '@types/react': 19.3.0
       redux: 4.2.1
 
   react-refresh@0.18.0: {}
 
-  react-router-dom@5.3.4(react@17.0.2):
+  react-router-dom@5.3.4(react@19.3.0):
     dependencies:
       '@babel/runtime': 7.26.9
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 17.0.2
-      react-router: 5.3.4(react@17.0.2)
+      react: 19.3.0
+      react-router: 5.3.4(react@19.3.0)
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
 
-  react-router@5.3.4(react@17.0.2):
+  react-router@5.3.4(react@19.3.0):
     dependencies:
       '@babel/runtime': 7.26.9
       history: 4.10.1
@@ -5771,29 +5755,26 @@ snapshots:
       loose-envify: 1.4.0
       path-to-regexp: 1.9.0
       prop-types: 15.8.1
-      react: 17.0.2
+      react: 19.3.0
       react-is: 16.13.1
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
 
-  react-transition-group@4.4.5(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
+  react-transition-group@4.4.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
     dependencies:
       '@babel/runtime': 7.26.9
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 17.0.2
-      react-dom: 17.0.2(react@17.0.2)
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
 
-  react@17.0.2:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
+  react@19.3.0: {}
 
-  reactcss@1.2.3(react@17.0.2):
+  reactcss@1.2.3(react@19.3.0):
     dependencies:
       lodash: 4.18.1
-      react: 17.0.2
+      react: 19.3.0
 
   reduce-configs@2.0.1: {}
 
@@ -5884,10 +5865,7 @@ snapshots:
       loose-envify: 1.4.0
       object-assign: 4.1.1
 
-  scheduler@0.20.2:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
+  scheduler@0.28.0: {}
 
   scroll-into-view-if-needed@2.2.31:
     dependencies:
@@ -6152,24 +6130,24 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  use-callback-ref@1.3.3(@types/react@18.3.31)(react@17.0.2):
+  use-callback-ref@1.3.3(@types/react@19.3.0)(react@19.3.0):
     dependencies:
-      react: 17.0.2
+      react: 19.3.0
       tslib: 2.8.1
     optionalDependencies:
-      '@types/react': 18.3.31
+      '@types/react': 19.3.0
 
-  use-sidecar@1.1.3(@types/react@18.3.31)(react@17.0.2):
+  use-sidecar@1.1.3(@types/react@19.3.0)(react@19.3.0):
     dependencies:
       detect-node-es: 1.1.0
-      react: 17.0.2
+      react: 19.3.0
       tslib: 2.8.1
     optionalDependencies:
-      '@types/react': 18.3.31
+      '@types/react': 19.3.0
 
-  use-sync-external-store@1.6.0(react@17.0.2):
+  use-sync-external-store@1.6.0(react@19.3.0):
     dependencies:
-      react: 17.0.2
+      react: 19.3.0
 
   value-equal@1.0.1: {}
 
