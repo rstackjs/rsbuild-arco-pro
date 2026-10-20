@@ -28,8 +28,8 @@
     "react-color": "^2.19.3",
     "react-dom": "^17.0.2",
     "react-redux": "^9.3.0",
-    "react-router": "^5.3.4",
-    "react-router-dom": "^5.3.4",
+    "react-router": "^8.5.0",
+    "react-router-dom": "^7.18.4",
     "redux": "^4.2.1"
   },
   "devDependencies": {
